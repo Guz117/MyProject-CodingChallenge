@@ -1,0 +1,88 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#tot{
+  width: 65%;
+  height: 200%;
+  margin: auto;
+  margin-top: 2%;
+  background: #08080896;
+  border-radius: 10px;
+}
+
+.corpo{
+  padding: 7% 10%;
+}
+
+img{
+  width: 25%;
+  height: 20%;
+}
+
+header > span{
+  font-size: 160%;
+  color: #04ec16;
+  display: block;
+  margin-bottom: 1%;
+}
+
+header, nav{
+  text-align: center;
+}
+
+nav{
+  background: #04ec16;
+  padding: 1%;
+}
+
+button{
+  font-size: 60%;
+}
+
+main{
+  color: white;
+}
+
+
+.via{
+  display: block;
+  font-size: 80%;
+}
+
+.monopattino{
+  margin-top: 3%;
+}
+
+input{
+  height: 9px;
+}
+
+div span:first-child{
+  font-size: 100%;
+  }
+
+.carica{
+  height: 20px;
+  border-radius: 3px;
+}
+
+.carica.media{
+  width: 35%;
+  background-color: #f3b23d;
+}
+
+.carica.alta{
+  width: 60%;
+  background-color: #04ec16;
+}
+
+.carica.bassa{
+  width: 17%;
+  background-color: #ec5050;
+}
